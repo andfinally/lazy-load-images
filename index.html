@@ -1,6 +1,11 @@
 <html>
 <head>
 	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			color: #333;
+		}
+
 		figure {
 			margin: 20px auto 800px;
 		}
@@ -25,7 +30,9 @@
 <body>
 
 <h1>Lazy Load Images</h1>
-<a href=""
+<p>This utility is based on the image loading functionality in <a href="https://github.com/BBC-News/Imager.js/">BBC Imager</a>, but it removes the responsive image functionality: I just wanted to lazy load images.</p>
+<p>By default, the script will load any image with a data-src attribute when it comes within 600 pixels of the viewport. The script checks images when the user scrolls or resizes.</p>
+<p>GitHub repo <a href="https://github.com/andfinally/lazy-load-images">https://github.com/andfinally/lazy-load-images</a>.</p>
 
 <figure>
 	<img src="data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7" data-src="img/sunset-on-rye.jpg" width="640" height="360">

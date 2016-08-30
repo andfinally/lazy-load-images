@@ -49,7 +49,8 @@
 	class LazyLoadImages {
 
 		/**
-		 * Construct a new LazyLoadImages instance, passing optional config object.
+		 * Construct a new LazyLoadImages instance.
+		 * To use custom options pass an optional config object.
 		 *
 		 * @param  opts - object
 		 *
@@ -81,12 +82,13 @@
 				this.scrolled = false;
 				this.getPageOffset = this.getPageOffsetGenerator();
 
+				// Initialise this script asynchronously
 				setTimeout(() => {
 					this.init()
 				}, 0);
 			}
 		}
-
+		
 		init() {
 			if (this.lazyload) {
 				this.registerScrollEvent();
