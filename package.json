@@ -1,0 +1,33 @@
+{
+  "name": "lazy-loading-images",
+  "version": "1.0.0",
+  "description": "Loads images just before they scroll into view.",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andfinally/lazy-loading-images.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "ES6",
+    "lazy",
+    "loading"
+  ],
+  "author": "And Finally",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andfinally/lazy-loading-images/issues"
+  },
+  "homepage": "https://github.com/andfinally/lazy-loading-images#readme"
+}
